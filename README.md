@@ -36,7 +36,12 @@ It is a common misconception that if there is a padlock symbol next to the websi
 **Libraries:** beautifulsoup4, googlesearch-python, scikit-learn, pandas, requests, whois.
 
 ## Screnshots
-![image](https://github.com/KSruthiVel/Malicious_URL_Detection_using_ML/assets/68786151/20d51e15-4264-4098-a29f-729e91a7de0c)
-![image](https://github.com/KSruthiVel/Malicious_URL_Detection_using_ML/assets/68786151/82cc2031-c929-4186-8590-987313eb3295)
-![image](https://github.com/KSruthiVel/Malicious_URL_Detection_using_ML/assets/68786151/df6413f4-ee4a-497f-98e4-660dd6411c87)
-![image](https://github.com/KSruthiVel/Malicious_URL_Detection_using_ML/assets/68786151/d5bc2bcf-10ab-424a-9134-8c4a09ae9f21)
+![image](https://github.com/KSruthiVel/Malicious_URL_Detection_using_ML/assets/68786151/d0061035-477d-401f-b3ab-e1b03a69f974)
+![image](https://github.com/KSruthiVel/Malicious_URL_Detection_using_ML/assets/68786151/cb4ac0d2-d15f-4052-a82d-2f54f8e7c85e)
+![image](https://github.com/KSruthiVel/Malicious_URL_Detection_using_ML/assets/68786151/10536fc7-a429-4336-843d-fa040b0e0956)
+![image](https://github.com/KSruthiVel/Malicious_URL_Detection_using_ML/assets/68786151/89a6b471-d84b-47ff-ac25-4b7194344743)
+
+## Future Scope
+<div align="jusitfy">
+The developed model for malicious URL detection exhibits impressive results, but improvement is needed, particularly in reducing the prediction time of 30 seconds for real-time detection. Another area for improvement is to handle situations where a website is down or permission to access it is denied. In such circumstances, the current model cannot predict whether the website is malicious or not. This limitation can be addressed by incorporating additional features that can be extracted from other sources, such as WHOIS data or passive DNS information.
+  </div>
