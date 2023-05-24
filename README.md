@@ -10,7 +10,6 @@ It is a common misconception that if there is a padlock symbol next to the websi
 ![image](https://github.com/KSruthiVel/Malicious_URL_Detection_using_ML/assets/68786151/d965f852-6f2a-4268-a460-2ff7aa0d0c1f)
 
 ## Features
-+-----------------------------------------------------------------------+
 | Lexical Features     | Host-based Features   | Content-based Features |
 |----------------------|-----------------------|------------------------|
 | url_of_anchor        | registration_length   | web_traffic            |
@@ -25,7 +24,7 @@ It is a common misconception that if there is a padlock symbol next to the websi
 | having_@             |                       |                        |
 | abnormal_url         |                       |                        |
 | having_//            |                       |                        |
-+-----------------------------------------------------------------------+
+
 ## Flowchart
 ![image](https://github.com/KSruthiVel/Malicious_URL_Detection_using_ML/assets/68786151/b09bdf9d-140c-45ca-bfb4-b72ff6a12b5f)
 
