@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Sanchalak",
+  "description": "Helps you to avoid accessing malicious websites by analyzing the website .",
+  "version": "1.1",
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "32": "icon.png",
+    "128": "icon.png"
+  },
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "https://ajax.googleapis.com/",
+    "tabs",
+    "<all_urls>"
+  ]
+}
