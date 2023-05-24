@@ -26,8 +26,9 @@ It is a common misconception that if there is a padlock symbol next to the websi
 | having_//            |                       |                        |
 
 ## Flowchart
+<img align="center">
 ![activity diagram](https://github.com/KSruthiVel/Malicious_URL_Detection_using_ML/assets/68786151/6a8cd9c0-6e5d-4a0b-b441-87332128faea)
-
+</img>
 ## Tech Stack
 
 **UI:** HTML5, CSS3.
