@@ -26,7 +26,7 @@ It is a common misconception that if there is a padlock symbol next to the websi
 | having_//            |                       |                        |
 
 ## Flowchart
-<img src="[path/to/image.png](https://github.com/KSruthiVel/Malicious_URL_Detection_using_ML/assets/68786151/b09bdf9d-140c-45ca-bfb4-b72ff6a12b5f)" style="width: 500px; height: 400px;">
+<img src="[path/to/image.png](https://github.com/KSruthiVel/Malicious_URL_Detection_using_ML/assets/68786151/b09bdf9d-140c-45ca-bfb4-b72ff6a12b5f)" style="width: 300px; height: 200px; object-fit: cover;">
 
 ![image]()
 
