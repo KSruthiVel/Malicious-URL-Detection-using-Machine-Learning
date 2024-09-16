@@ -9,20 +9,77 @@ It is a common misconception that if there is a padlock symbol next to the websi
 ![image](https://github.com/KSruthiVel/Malicious_URL_Detection_using_ML/assets/68786151/d965f852-6f2a-4268-a460-2ff7aa0d0c1f)
 
 ## Features
-| Lexical Features     | Host-based Features   | Content-based Features |
-|----------------------|-----------------------|------------------------|
-| url_of_anchor        | registration_length   | web_traffic            |
-| sub_domain           | age_of_domain         | favicon                |
-| having_-             | having_ip             | redirect               |
-| links_in_tags        | google_index          | submitting_to_email    |
-| sfh                  | dns_record            | statistical_report     |
-| request_url          |                       | mouse_over             |
-| url_length           |                       | iframe                 |
-| https_token          |                       | rightclick             |
-| shortening_service   |                       |                        |
-| having_@             |                       |                        |
-| abnormal_url         |                       |                        |
-| having_//            |                       |                        |
+<table>
+    <thead>
+        <tr>
+            <th>Lexical Features</th>
+            <th>Host-based Features</th>
+            <th>Content-based Features</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>url_of_anchor</td>
+            <td>registration_length</td>
+            <td>web_traffic</td>
+        </tr>
+        <tr>
+            <td>sub_domain</td>
+            <td>age_of_domain</td>
+            <td>favicon</td>
+        </tr>
+        <tr>
+            <td>having_-</td>
+            <td>having_ip</td>
+            <td>redirect</td>
+        </tr>
+        <tr>
+            <td>links_in_tags</td>
+            <td>google_index</td>
+            <td>submitting_to_email</td>
+        </tr>
+        <tr>
+            <td>sfh</td>
+            <td>dns_record</td>
+            <td>statistical_report</td>
+        </tr>
+        <tr>
+            <td>request_url</td>
+            <td></td>
+            <td>mouse_over</td>
+        </tr>
+        <tr>
+            <td>url_length</td>
+            <td></td>
+            <td>iframe</td>
+        </tr>
+        <tr>
+            <td>https_token</td>
+            <td></td>
+            <td>rightclick</td>
+        </tr>
+        <tr>
+            <td>shortening_service</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>having_@</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>abnormal_url</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>having_//</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
 
 ## Flowchart
  ![activity diagram](https://github.com/KSruthiVel/Malicious_URL_Detection_using_ML/assets/68786151/6a8cd9c0-6e5d-4a0b-b441-87332128faea)
