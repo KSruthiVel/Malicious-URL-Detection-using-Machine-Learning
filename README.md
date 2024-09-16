@@ -9,6 +9,20 @@ It is a common misconception that if there is a padlock symbol next to the websi
 ![image](https://github.com/KSruthiVel/Malicious_URL_Detection_using_ML/assets/68786151/d965f852-6f2a-4268-a460-2ff7aa0d0c1f)
 
 ## Features
+#### Lexical Features
+These refer to statistical features extracted from the literal URL string. For example, length of the URL string, 
+number of digits, number of parameters in its query part, if the URL is encoded, etc. Example, ‘amazon.com.support.info’.
+
+#### Host-Based Features
+These provide information about the host of the webpage, for example, country of registration, domain name properties, 
+named servers, connection speed, time to live from registration, etc. The motivation behind including these parameters 
+is that there is a difference in website deployment tactics, the longevity of existence, and the reputation for malicious and benign sites.
+
+#### Content Features
+These are obtained from the downloaded HTML code of the webpage. These features capture the structure of the webpage and 
+the content embedded in it. These will include information on script tags, embedded objects, executables, hidden elements, etc. 
+For example, in an SQL injection attack, anomalies such as malformed documents or repeated tags show up in raw HTML content.
+
 <table>
     <thead>
         <tr>
