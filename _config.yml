@@ -1,2 +1,6 @@
 title: "Malicious URL Detection using Machine Learning"
-theme: jekyll-theme-minimal
+description: "Detecting malicious URLs using advanced machine learning techniques."
+theme: jekyll-theme-cayman
+show_downloads: false
+show_title: true
+google_analytics: UA-XXXXXXXX-X
