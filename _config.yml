@@ -1,6 +1,8 @@
 title: "Malicious URL Detection using Machine Learning"
 description: "Detecting malicious URLs using advanced machine learning techniques."
-theme: leap-day
+remote_theme: pages-themes/leap-day@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 show_downloads: false
 show_title: false
 google_analytics: UA-XXXXXXXX-X
